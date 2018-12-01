@@ -1,0 +1,14 @@
+.sim-head{
+    display: flex;
+    justify-content: center;
+  }
+body{
+    padding: 100px;
+    padding-top: 20px;
+    background-color: azure;
+}
+
+.container{
+    text-align: center;
+
+}
