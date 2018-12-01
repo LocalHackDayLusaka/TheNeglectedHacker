@@ -1,6 +1,32 @@
 <html>
     <head>
             <link href="css/bootstrap.min.css" rel="stylesheet">
+
+	
+	<style>
+#grad4 {
+    height: 100px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(-90deg, #833ab4, #fd1d1d, #fcb045); /* Standard syntax (must be last) */
+}
+
+#grad1 {
+    height: 100px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(-90deg, #fe8c00, #f83600); /* Standard syntax (must be last) */
+}
+
+#grad3 {
+    height: 100px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(-90deg, #d38312, #a83279); /* Standard syntax (must be last) */
+}
+#grad2 {
+    height: 100px;
+    background-color: yellow; /* For browsers that do not support gradients */
+    background-image: linear-gradient(-90deg, #ff512f, #f09819); /* Standard syntax (must be last) */
+}
+</style>
     </head>
 
     <body>
@@ -40,11 +66,10 @@
 
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
           </div>
           <div class="col-md-5">
-           <div class="card" style="width: 24rem; height: 200px;">
+           <div class="card" id="grad1" style="width: 24rem; height: 200px; color:white;">
   <div class="card-body">
     <h5 class="card-title">Simulator</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -57,11 +82,10 @@
 
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
           </div>
           <div class="col-md-5 order-md-1">
-                  <div class="card" style="width: 24rem; height: 200px;">
+                  <div class="card" id="grad4" style="width: 24rem; height: 200px; color:white;">
   <div class="card-body">
     <h5 class="card-title">Simulator</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -78,13 +102,12 @@
 
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
           </div>
           <div class="col-md-5">
-                 <div class="card" style="width: 24rem; height: 200px;">
+                 <div class="card" id="grad2" style="width: 24rem; height: 200px; color:white;">
   <div class="card-body">
-    <h5 class="card-title">Simulator</h5>
+    <h5 class="card-title">Simulator 2</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
   </div>
 </div>
@@ -95,11 +118,10 @@
 
 		        <div class="row featurette">
           <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
           </div>
           <div class="col-md-5 order-md-1">
-                  <div class="card" style="width: 24rem; height: 200px;">
+                  <div class="card" id="grad3" style="width: 24rem; height: 200px; color:white;">
   <div class="card-body">
     <h5 class="card-title">Simulator</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
