@@ -1,116 +1,149 @@
 <html>
-    <head>
-            <link href="css/bootstrap.min.css" rel="stylesheet">
-    </head>
 
-    <body>
-
-	
-        
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="#">Navbar</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                      <ul class="navbar-nav">
-                        <li class="nav-item active">
-                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link disabled" href="#">Disabled</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </nav>
-                  
+<head>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
 
 
+  <style>
+    #grad4 {
+    height: 100px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(-90deg, #833ab4, #fd1d1d, #fcb045); /* Standard syntax (must be last) */
+}
 
-          <!-- START THE FEATURETTES -->
-<div class="container">
+#grad1 {
+    height: 100px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(-90deg, #fe8c00, #f83600); /* Standard syntax (must be last) */
+}
 
-        <hr class="featurette-divider">
+#grad3 {
+    height: 100px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(-90deg, #d38312, #a83279); /* Standard syntax (must be last) */
+}
+#grad2 {
+    height: 100px;
+    background-color: yellow; /* For browsers that do not support gradients */
+    background-image: linear-gradient(-90deg, #ff512f, #f09819); /* Standard syntax (must be last) */
+}
+</style>
+</head>
 
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-          </div>
-          <div class="col-md-5">
-           <div class="card" style="width: 24rem; height: 200px;">
-  <div class="card-body">
-    <h5 class="card-title">Simulator</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-</div>
+<body>
+  <!-- landing page -->
+  <div style='height:100vh'>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="intro-programming.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Intro
+              to Programming</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Home</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+
+
+    <!-- START THE FEATURETTES -->
+    <div class="container">
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+            semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+            commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <div class="card" id="grad1" style="width: 24rem; height: 200px; color:white;">
+            <div class="card-body">
+              <h5 class="card-title">Simulator</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+            </div>
           </div>
         </div>
+      </div>
 
-        <hr class="featurette-divider">
+      <hr class="featurette-divider">
 
-        <div class="row featurette">
-          <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-          </div>
-          <div class="col-md-5 order-md-1">
-                  <div class="card" style="width: 24rem; height: 200px;">
-  <div class="card-body">
-    <h5 class="card-title">Simulator</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-</div>
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+            semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+            commodo.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <div class="card" id="grad4" style="width: 24rem; height: 200px; color:white;">
+            <div class="card-body">
+              <h5 class="card-title">Simulator</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+            </div>
           </div>
         </div>
+      </div>
 
-        <hr class="featurette-divider">
+      <hr class="featurette-divider">
 
-
-
-
-
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-          </div>
-          <div class="col-md-5">
-                 <div class="card" style="width: 24rem; height: 200px;">
-  <div class="card-body">
-    <h5 class="card-title">Simulator</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-</div>
+      <div class="row featurette">
+        <div class="col-md-7">
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+            semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+            commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <div class="card" id="grad2" style="width: 24rem; height: 200px; color:white;">
+            <div class="card-body">
+              <h5 class="card-title">Simulator 2</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+            </div>
           </div>
         </div>
+      </div>
 
-       <hr class="featurette-divider">
+      <hr class="featurette-divider">
 
-		        <div class="row featurette">
-          <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-          </div>
-          <div class="col-md-5 order-md-1">
-                  <div class="card" style="width: 24rem; height: 200px;">
-  <div class="card-body">
-    <h5 class="card-title">Simulator</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-</div>
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+            semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+            commodo.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <div class="card" id="grad3" style="width: 24rem; height: 200px; color:white;">
+            <div class="card-body">
+              <h5 class="card-title">Simulator</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+            </div>
           </div>
         </div>
-
-        
-
-<div>
+      </div>
+      
+      <div>
 </body>
+
 </html>
-        
